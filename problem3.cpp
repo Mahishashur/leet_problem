@@ -2,7 +2,7 @@
 
 class Solution {
  public:
-  int calPoints(vector<string>& operations) {
+  int calPoints(vector <string> & operations) {
     vector<int> scores;
 
     for (const string& operation : operations)
