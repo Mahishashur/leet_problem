@@ -5,7 +5,7 @@ class Solution {
   int calPoints(vector <string> & operations) {
     vector<int> scores;
 
-    for (const string& operation : operations)
+    for (const string & operation : operations)
       if (operation == "+")
         scores.push_back(scores.back() + scores[scores.size() - 2]);
       else if (operation == "D")
